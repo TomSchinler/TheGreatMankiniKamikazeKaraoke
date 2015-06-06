@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS "songList";
+CREATE TABLE "songList" ("_id" INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL , "Title" TEXT, "Artist" TEXT, "Decade" INTEGER, "Year" INTEGER, "Genre" TEXT);
+INSERT INTO "songList" VALUES(1,'Great Balls of Fire','Jerry Lee Lewis',50,1957,'Rock');
+INSERT INTO "songList" VALUES(2,'Ring of Fire','Johnny Cash',60,1963,'Country');
+INSERT INTO "songList" VALUES(3,'Shaft','Shaft',70,1971,'Blues');
+INSERT INTO "songList" VALUES(4,'Hotel California','Eagles',70,1973,'Rock');
+INSERT INTO "songList" VALUES(5,'Take On Me','AHA',80,1985,'Pop');
+INSERT INTO "songList" VALUES(6,'Dont Stop Believing','Journey',80,1981,'Rock');
+INSERT INTO "songList" VALUES(7,'Friends in Low Places','Garth Brooks',90,1991,'Country');
+INSERT INTO "songList" VALUES(8,'Baby Got Back','Sir Mix-A-Lot',90,1992,'Hip Hop');
+INSERT INTO "songList" VALUES(9,'Hey Ya','OutKast',0,2000,'Hip Hop');
+INSERT INTO "songList" VALUES(10,'I Kissed a Girl','Katy Perry',0,2007,'Pop');
+INSERT INTO "songList" VALUES(11,'Just the way you are','Bruno Mars',10,2010,'Pop');
+INSERT INTO "songList" VALUES(12,'Super Bass','Nicki Minaj',10,2010,'Hip Hop');

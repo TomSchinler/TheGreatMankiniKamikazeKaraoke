@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mainTextColor">#FF800709</color>
+    <color name="spinnerBackgroundColor">#ff8f9b8c</color>
+    <color name="kamikazeButtonBackground">#FF6695E9</color>
+</resources>
